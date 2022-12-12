@@ -79,6 +79,8 @@ Console.WriteLine(min);
 Console.WriteLine($"Разница между максимальным и минимальным элементами массива равна {max - min}");
 */
 
+
+//Дополнительное домашнее задание Статистика
 /*
 var array_no = new List<int> {};
 var array_yes = new List<int> {};
