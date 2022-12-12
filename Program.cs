@@ -79,7 +79,7 @@ Console.WriteLine(min);
 Console.WriteLine($"Разница между максимальным и минимальным элементами массива равна {max - min}");
 */
 
-
+/*
 var array_no = new List<int> {};
 var array_yes = new List<int> {};
 Console.WriteLine("Введите число элементов массива: ");
@@ -93,8 +93,12 @@ for (i = 1; i <= N; i++){
     if (n % 2 != 0)
         array_no.Add(n); 
 }
-if (array_yes.Length >= array_no.Length)
+Console.WriteLine($"{string.Join(", ", array_no)}");
+Console.WriteLine($"{string.Join(", ", array_yes)}");
+if (array_yes.Count >= array_no.Count)
     Console.WriteLine("Yes");
 else
     Console.WriteLine("No");
+*/
+
 
